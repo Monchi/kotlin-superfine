@@ -1,0 +1,10 @@
+/.gradle
+/build
+/kotlin-superfine/build
+/example/build
+
+/.idea
+/out
+/kotlin-superfine/out
+/example/out
+
