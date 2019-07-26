@@ -8,9 +8,9 @@
 
 ```groovy
 repositories {
-    maven(
-        url = "https://dl.bintray.com/monchi/maven"
-    )
+    maven {
+        url  "https://dl.bintray.com/monchi/maven" 
+    }
 }
 
 dependencies {
@@ -20,7 +20,7 @@ dependencies {
 
 ## Usage
 
-This is just a wrapper, so you can refer [original README](https://github.com/jorgebucaran/superfine/blob/master/README.md).
+This is just a wrapper, so you can refer to [original README](https://github.com/jorgebucaran/superfine/blob/master/README.md).
 
 You can also see [example project](https://github.com/Monchi/kotlin-superfine/tree/master/example) to learn how to write in Kotlin.
 
