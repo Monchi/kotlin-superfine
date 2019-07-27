@@ -8,9 +8,7 @@
 
 ```groovy
 repositories {
-    maven {
-        url  "https://dl.bintray.com/monchi/maven" 
-    }
+    jcenter()
 }
 
 dependencies {
